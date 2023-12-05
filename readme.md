@@ -25,7 +25,7 @@ body:
 
  `get` **/balance**
 <br>
-Verifica o saldo disponivel em conta
+Verifica o saldo disponivel em conta em centavos
 
 Headers:
 ```
