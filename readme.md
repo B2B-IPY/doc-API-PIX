@@ -114,24 +114,6 @@ Headers:
 
 
 
-
-
- `get` **/payment-voucher/:order_id**
-
-Exemplo: /payment-voucher/adcadzf-amsn3kna-30nmssa
-
-
-Headers:
-```
-{
-	"x-access-token":"token recebido pela rota /login",
-}
-```
-
-<br>
-<br>
-<br>
-
 ## CASHIN
 <br>
 
