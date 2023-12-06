@@ -1,6 +1,7 @@
 # API PIX 📜
 
 Com API você pode integrar o PIX ao seu sistema.
+obs: TODOS os valores devem ser informados como centavos, porem algumas rotas ira RETORNAR o valor como real inteiro e outras como centavos
 
 ## URL BASE
 
@@ -25,7 +26,7 @@ body:
 
  `get` **/balance**
 <br>
-Verifica o saldo disponivel em conta em centavos
+Verifica o saldo disponivel em conta
 
 Headers:
 ```
@@ -91,21 +92,6 @@ Headers:
 
 
 
- `get` **/search-cashout/e2e/:e2e**
-
-Exemplo: /search-cashout/e2e/E0825353920231204193933984d6b8e6
-
-Headers:
-```
-{
-	"x-access-token":"token recebido pela rota /login",
-}
-```
-
-<br>
-<br>
-<br>
-
 
 
 
@@ -166,7 +152,6 @@ Body:
 {
 	"value": 100,
 	"expiration_time": 86400,
-	"url_notify": "https://webhook.site/61e7d93f-c2a4-4f8f-aa25-25466cdb8a14",
 	"order_id": "cz3878af-v805-47vc-b419-va19773f1vka"
 }
 ```
@@ -194,24 +179,6 @@ Headers:
 <br>
 <br>
 
-
-
-
-
- `get` **/search-cashin/e2e/:e2e**
-
-Exemplo: /search-cashin/e2e/E0825353920231204193933984d6b8e6
-
-Headers:
-```
-{
-	"x-access-token":"token recebido pela rota /login",
-}
-```
-
-<br>
-<br>
-<br>
 
 
 
