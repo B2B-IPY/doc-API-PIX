@@ -74,8 +74,7 @@ Body:
 	"pixKey": "39857534000174",
 	"creditorDocument": "39857534000174",
 	"description": "withdraw",
-	"url_notify": "https://webhook.site/61e7v93f-c2a4-4f8f-aa25-25466cdb8a14",
-	"order_id": "adcadzf-amsn3kna-30nmssa"
+	"order_id": "adcadzfamsn3kna30nmssa"
 }
 ```
 
@@ -140,7 +139,7 @@ Body:
 {
 	"value": 100,
 	"expiration_time": 86400,
-	"order_id": "cz3878af-v805-47vc-b419-va19773f1vka"
+	"order_id": "cz3878afv80547vcb419va19773f1vka"
 }
 ```
 
