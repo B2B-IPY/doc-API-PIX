@@ -71,6 +71,21 @@ Body:
 
 
 
+ `get` **/search-cashout**
+
+
+Headers:
+```
+{
+	"x-access-token":"token recebido pela rota /login",
+}
+```
+
+<br>
+<br>
+<br>
+
+
 
 
  `get` **/search-cashout/:order-id**
@@ -88,29 +103,6 @@ Headers:
 <br>
 <br>
 
-
-
-
-
-
-
-
-
- `get` **/search-cashout/txid/:txid**
-
-Exemplo: /search-cashout/txid/5804250afc642ef8736f708f169c016u0
-
-
-Headers:
-```
-{
-	"x-access-token":"token recebido pela rota /login",
-}
-```
-
-<br>
-<br>
-<br>
 
 
 
@@ -143,12 +135,8 @@ Body:
 <br>
 
 
+ `get` **/search-cashin**
 
-
-
- `get` **/search-cashin/:order_id**
-
-Exemplo: /search-cashin/cz3878af-v805-47vc-b419-5a19773f1vka
 
 Headers:
 ```
@@ -162,14 +150,9 @@ Headers:
 <br>
 
 
+ `get` **/search-cashin/:order_id**
 
-
-
-
- `get` **/search-cashin/txid/:txid**
-
-Exemplo: /search-cashin/txid/5804250afc642ef8736f708f169c016u0
-
+Exemplo: /search-cashin/cz3878af-v805-47vc-b419-5a19773f1vka
 
 Headers:
 ```
