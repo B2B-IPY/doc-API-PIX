@@ -12,6 +12,8 @@ Obs: Os valores devem ser tratados como Float
 
  `post` **/login**
 <br>
+<br> 
+
 body:
 ```
 {	
@@ -93,6 +95,33 @@ Body:
 }
 ```
 
+
+Response:
+```
+{
+  	"statusCode": 			200,
+  	"transactionId":		string,
+  	"data": {
+    	  "account": 			null,
+    	  "isbp": 			null,
+    	  "amount": 			string,
+    	  "branch": 			null,
+    	  "typeKey": 			null,
+    	  "key": 			string,
+    	  "name": 			null,
+    	  "subType": 			string,
+    	  "status": 			string,
+    	  "type": 			string,
+    	  "externalId": 		string,
+    	  "remittanceInformation": 	string,
+    	  "createdAt": 			string,
+    	  "uuid": 			string,
+    	  "documentNumber": 		string,
+    	  "bankName": 			null
+  }
+}
+```
+
 <br>
 <br>
 <br>
@@ -118,6 +147,31 @@ Body:
 	"amount": number
 }
 ```
+
+Response:
+```
+{
+	"statusCode": 200,
+  	"data": {
+    	  "uuid": 		string,
+    	  "identifier": 	string,
+    	  "key": 		string,
+    	  "keyType": 		string,
+    	  "InvoiceType":	string,
+    	  "timeout": 		number,
+    	  "expire":		number,
+    	  "partnersListId": 	number,
+    	  "amount": 		string,
+    	  "status": 		string,
+    	  "externalId": 	string,
+    	  "documentNumber": 	string,
+    	  "name": 		string,
+    	  "accountId": 		number,
+    	  "createdAt": 		string
+	}
+}
+```
+
 
 <br>
 <br>
