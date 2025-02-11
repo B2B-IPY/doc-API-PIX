@@ -72,6 +72,21 @@ Headers:
 <br>
 <br>
 
+
+ `post` **/extrato/{numero da pagina}**
+<br>
+Verifica todos os dados da conta
+
+Headers:
+```
+{
+	"x-access-token":"token recebido pela rota /login",
+}
+```
+<br>
+<br>
+<br>
+
 ## CASHOUT
 <br>
 
