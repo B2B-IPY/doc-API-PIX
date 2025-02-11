@@ -1,11 +1,11 @@
 # API PIX 📜
 
 Com API você pode integrar o PIX ao seu sistema.
-obs: TODOS os valores devem ser informados como centavos, porem algumas rotas ira RETORNAR o valor como real inteiro e outras como centavos
+
 
 ## URL BASE
 
- `https://pix.b2btecnologia.io`
+ `https://api.binbank.com.br`
 
 ## Rotas 
 
@@ -15,10 +15,30 @@ obs: TODOS os valores devem ser informados como centavos, porem algumas rotas ir
 body:
 ```
 {
-	"user_login":"gstv",
-	"password_login":"Gustavo123"
+	"user":"Seu_usuario",
+	"password":"Sua_senha"
 }
 ```
+
+Response:
+```
+{
+
+  "status": "isLogged",
+  "x-access-token": "x-access-token",
+  "personData": {
+    "user": "seu_usuario",
+    "email": "seu_email",
+    "id_logins": 1,
+    "role": "sua_role",
+    "valor": 0,
+    "cpfCnpj": "seu_documento",
+    "nome": "seu_nome"
+  }
+
+}
+```
+
 
 <br>
 <br>
